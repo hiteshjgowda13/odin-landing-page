@@ -1,17 +1,99 @@
-.header,.footer,.hero{
-    font-family: Roboto;
+*{
+    margin:0;
+    font-family: 'roboto',sans-serif;
+}
+/* using bg for header hero sections together*/
+.header,.footer, .hero{
     background-color: #1F2937;
     color:white;
-    
-
 }
+/*aligning footer to center*/
+.footer{
+    text-align: center;
+    padding: 6px;
+    font-size: 10px;
+}
+/*header tab start*/
 .header{
     display: flex;
+    justify-content:space-between;
+    padding: 25px 90px 20px 90px;    
+}
+.header nav{
+    display: flex;
     justify-content: space-between;
-    align-items: center;
+    gap:20px;
     
 }
-h1,h3{
-    margin:0;
+a{
+    text-decoration: none;
+    color:white;
+    font-size: 10px;
+}
+/*header tab end*/
 
+/*hero section start*/
+.hero{
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 90px 60px 90px;  
+    
+}
+.name{
+    font-size: 48px;
+    color:#f9faf8;
+    font-weight: 900;  
+}
+.button, .buttonc{
+    background-color: #3883f6;
+    color:white;
+    margin-top:10px;
+    border-radius: 6px;
+    font-family: 'roboto',sans-serif;
+    padding: 8px;
+    cursor: pointer;
+    border:none;
+    box-shadow: none;
+}
+
+.hero p{
+    font-size: 18px;
+    color:#e5e7eb;
+    max-width:390px;
+}
+.image{
+    background-color:grey;
+    color:white;
+    text-align: center;
+    padding: 60px;
+    
+}
+/*hero section end*/
+/*quote section*/
+.quote{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: 300;
+    font-style: italic;
+    padding: 100px 12% 100px 12%;
+}
+.author{
+    font-style: normal;
+    font-weight:750;
+    padding:25px 12% 0 60%;
+    min-width: max-content;
+}
+/*quote end*/
+.caller{
+    background-color: #3883f6;
+    color: white;
+    margin: 90px;
+    padding: 30px 12%;
+    display: flex;
+    justify-content: space-between;
+}
+.buttonc{
+    border:2px solid white;
+    padding:10px 20px;
 }
