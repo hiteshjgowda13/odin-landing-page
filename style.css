@@ -6,6 +6,11 @@
 .header,.footer, .hero{
     background-color: #1F2937;
     color:white;
+    align-items: center;
+}
+.logo{
+    height: 50px;
+    width: auto;
 }
 /*aligning footer to center*/
 .footer{
@@ -63,9 +68,8 @@ a{
 }
 .image{
     background-color:grey;
-    color:white;
     text-align: center;
-    padding: 60px;
+    padding: 6px;
     
 }
 /*hero section end*/
@@ -96,4 +100,26 @@ a{
 .buttonc{
     border:2px solid white;
     padding:10px 20px;
+}
+.cards h1{
+    text-align: center;
+    font-family: 'roboto',sans-serif;
+    padding-top: 50px;
+}
+.pictures{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 12% 100px 12%;
+}
+.stren, .athe, .body, .cal{
+    height:100px;
+    width:200px;
+    max-width: fit-content;
+    cursor:pointer;
+    text-align: center;
+    border:none;
+    border-radius: 6px;
+    color:rgba(53, 49, 54, 0.779);
+    font-weight:100;
+    padding: 6px;
 }
